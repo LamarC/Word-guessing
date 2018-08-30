@@ -1,0 +1,23 @@
+body {
+    background-image: url(../images/grid-a.svg);
+    background-size: cover;
+}   
+
+#container { 
+    font-family: 'Indie Flower', cursive;
+    color: gray;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+form {
+    font-size: 50px;
+}
+
+p {
+    font-size: 50px;
+}
