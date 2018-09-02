@@ -6,24 +6,24 @@
     <title>Word Guessing Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css" />
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="./css/reset.css" />-->
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
 </head>
 
 <body>
-    <div id="container">
-        <h1>Guess the word Game</h1>
-        <form>
-            Choose a letter:
-            <input id="guess" type="text" onkeyup="userGuess ()" />
-        </form>
+    <div id="container">`
+        
+    <h1>Try to guess the letter!</h1>
+    
+    <br><br>
 
-
-        <p id="userGuess"></p>
-        <p id="pcChoice"></p>
-        <p id="wins"></p>
-        <p id="losses"></p>
-        <p id="attempsLeft"></p>
+    <div class="game">
+        <p id="wins">Wins :</p>
+        <p id="losses">Losses :</p>
+        <span id="user-text">
+        <p id="userGuess">Your guesses:</p>
+        </span>
+        <p id="attempsLeft">Attemps Left:</p>
     </div>
 
     <script src="./JS/logic.js" type="text/javascript"></script>
